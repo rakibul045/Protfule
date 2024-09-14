@@ -1,0 +1,125 @@
+/* Smail   devices (landescape phone,576px and up*/
+@media (min-width:320px) and (max-width: 575px){
+    .welcome p {
+
+        font-size: 11px;
+    }
+    .header_icon ul li {
+        padding: 0 9px;
+    }
+    .banner_container{
+        text-align: center;
+    }
+    .banner_container h1 {
+        font-size: 27px;
+    }
+    .service_main {
+        margin-top: 50px;
+    }
+    .big_img{
+        margin-bottom: 20px;
+    }
+    .piramid {
+        top: -6%;
+        left: 44%;
+
+    }
+
+    /* footer prat css st */
+    .footer_logo, .footer_comen_heading{
+        
+        text-align: center;
+    }.footer_icon{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.xsm_menu{
+    margin-left: 60px;
+}
+    /* footer prat css st */
+
+
+}
+
+/* Smail   devices (landescape phone,320px and up*/
+
+@media (min-width:576px) and (max-width: 767px){
+    .ser_icon_main {
+        left: 44%;   
+    }
+    .service_main {
+        margin-top: 40px;
+    }
+    .big_img{
+        margin-bottom: 20px;
+    }
+    .piramid {
+        top: -5%;
+        left: 41%;
+    }
+    /* footer prat css st */
+    .footer_logo, .footer_comen_heading{
+        
+        text-align: center;
+    }.footer_icon{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.xsm_menu{
+    margin-left: 160px;
+}
+    /* footer prat css st */
+
+
+
+
+
+
+    
+}
+
+/* medium   devices (tabiets, 768px and up*/
+@media (min-width:768px) and (max-width: 991px){ 
+    .ser_icon_main {
+        left: 44%;   
+    }
+    .service_main {
+        margin-top: 40px;
+    }
+    .big_img{
+        margin-bottom: 20px;
+    }
+    .piramid {
+        top: -5%;
+        left: 41%;
+    }
+    /* footer prat css st */
+    .footer_logo, .footer_comen_heading{
+        
+        text-align: center;
+    }.footer_icon{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.xsm_menu{
+    margin-left: 160px;
+}
+    /* footer prat css st */
+
+}
+
+/* large   devices (landescape phone,576px and up*/
+@media (min-width:992px) and (max-width: 1199px){
+
+}
+
+/* x-large   devices (landescape phone,576px and up*/
+@media (min-width:1200px) and (max-width: 1399px){
+
+}
+
+
+/* XX-large   devices (landescape phone,576px and up*/
+@media (min-width:768px) {
+    
+}

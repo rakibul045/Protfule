@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,p,div,a,span,nav{
+    padding: 0;
+    margin: 0;
+}
+body{
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.Rakibul{
+    clear: both;
+}
+nav{
+    background-color: teal;
+    padding: 5px;
+}
+.logo img{width: 30%;
+
+}
+.logo{
+    width: 10%;
+    float: left;
+    padding: 25px;
+    
+}
+.menu{
+    width: 70%;
+    float: left;
+    padding: 0;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 25px 20px;
+}
+.menu ul li{
+    color: #f7ae86;
+}
+.menu ul li{
+    font-size: 24px;
+}
+/*banner part css start */
+
+#banner{
+    background: url(../imagse/sdsd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner_overlay{
+    padding: 150px 0;
+    background-color: rgba(0,0,0,.6);
+}
+.banner_container h1{
+    font-size: 70px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #ff7b00;
+}
+.banner_container h4{
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #00ff80;
+    margin-bottom: 40px;
+}
+.banner_container a{
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    font-family: monospace;
+    text-transform: uppercase;
+        color:#ffffff;
+    }
+    .banner_container a:hover{
+        background-color: teal;
+        border: 2px solid teal;
+        transition: all linear .3s;
+        border-radius: 30px;
+    }
+/*banner part css end */
+
+/* about part css start*/
+
+.about_head h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: monospace;
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 5%;
+    padding: .8% 0;
+    border-radius: 10%;
+}
+.about_img img{
+    width: 90%;
+    float: left;
+}
+.about_img{
+    width: 50%;
+}
+.about_content{
+    width: 50%;
+    float: left;
+}
+.about_content p{
+    padding-left: 4%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 100%;
+    font-size: 100%;
+
+}
+/* about part css end*/
+
+/* gallery part css start*/
+/*
+.gallrry_img{
+    width: 100%;
+     position: relative;
+}
+*/
+.gallrry_img img{
+    width: 31%;
+    height: 30%;
+    float: left;
+}
+
+.gallrry_imge img{
+    width: 33%;
+    height: 30%;
+    float: left;
+}
+
+.gallrry_imges img{
+    width: 35%;
+    height: 30%;
+    float: left;
+}
+
+/*
+.gallery_middle1{
+    float: left;
+    width: 32%;
+}
+.gallery_middle2{
+    float: right;
+    width: 32%;
+}
+    
+
+.gallery_middle{
+    margin: 0 2%;
+}
+.gallery_img{
+    height: 400px;
+    width: 400px;
+}
+.gallery_overlay{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    
+}
+.gallery_img:hover .gallery_overlay{
+    transform: scale(1);
+}
+*/
+/* gallery part css end*/
+
+/* service part css start*/
+
+.service_head h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: monospace;
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 5%;
+    padding: .8% 0;
+    border-radius: 10%;
+}
+.service_img img{
+    width: 70%;
+    float: left;
+}
+.service_img{
+    width: 60%;
+}
+.service_content{
+    width: 50%;
+    float: right;
+}
+.service_content p{
+    padding-left: 5%;
+    text-align: justify;
+    margin-top: 5%;
+    line-height: 100%;
+}
+/* about part css end*/
+/*product prat css start*/
+.product_head h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: monospace;
+    background-color: teal;
+   text-transform: uppercase;
+   color: #fbf8f8;
+   margin-bottom: 5%;
+   padding: .8% 0;
+   border-radius: 10%;
+}
+.product_img img{
+    width: 50%;
+   
+   
+}
+
+.product_img img{
+    width: 50%;
+
+
+}
+.product_p p{
+    padding-left: 5%;
+    text-align: justify;
+    margin-top: 5%;
+    line-height: 100%;
+}
+/*product prat css end*/
+/*prod prat css start*/
+.prod_head h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: monospace;
+    background-color: teal;
+   text-transform: uppercase;
+   color: #fbf8f8;
+   margin-bottom: 5%;
+   padding: .8% 0;
+   border-radius: 10%; 
+}
+.prod_img img{
+    width: 100%;
+   
+}
+
+.prod_img{
+    width: 40%;
+}
+
+.prod_content p{
+    padding-left: 4%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 100%;
+    font-size: 100%;
+}
+/*prod prat css end*/
+
+/* contact part css start*/
+
+.contact_head h4{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: monospace;
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 5%;
+    padding: .8% 0;
+    border-radius: 10%;
+}
+.contact_img img{
+    width: 90%;
+  
+}
+.contact_img{
+    width: 50%;
+   
+}
+.contact_content{
+    width: 45%;
+}
+.contactt_content p{
+    padding-left: 4%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 100%;
+    font-size: 100%;
+
+}
+/*contact part css end*/
+
+
+
+/*footer part css start*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+
+
+}
+
